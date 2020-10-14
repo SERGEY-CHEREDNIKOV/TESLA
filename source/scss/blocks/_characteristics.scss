@@ -1,0 +1,33 @@
+.characteristics__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 1075px;
+}
+
+.characteristics__description {
+    max-width: 250px;
+    text-align: center;
+}
+
+.characteristics__title,
+.characteristics__performance-designation {
+    font-family: 'Roboto-CondensedReg', Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.characteristics__performance-indicators {
+    font-family: 'RobotoReg', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+}
+
+.characteristics__text {
+    color: $red;
+}

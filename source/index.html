@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.min.css"> -->
     <title>Document</title>
 </head>
 
@@ -77,9 +78,39 @@
         <div class="slider__item"></div>
     </div> -->
 
+    <main class="main">
+        <div class="container">
+            <section class="main__characteristics characteristics">
+                <h2 class="characteristics__section-title visually-hidden">Характеристики</h2>
+                <div class="characteristics__wrapper">
+                    <div class="characteristics__description">
+                        <h3 class="characteristics__title">Двигатель</h3>
+                        <p class="characteristics__performance-indicators">2,1<span class="characteristics__performance-designation">сек</span></p>
+                        <p class="characteristics__text">разгон до 100 км</p>
+                    </div>
+                    <div class="characteristics__description">
+                        <h3 class="characteristics__title">Батарея</h3>
+                        <p class="characteristics__performance-indicators">1000<span class="characteristics__performance-designation">км</span></p>
+                        <p class="characteristics__text">запас хода</p>
+                    </div>
+                    <div class="characteristics__description">
+                        <h3 class="characteristics__title">Скорость</h3>
+                        <p class="characteristics__performance-indicators">400<span class="characteristics__performance-designation">км/ч</span></p>
+                        <p class="characteristics__text">макс скорость</p>
+                    </div>
+                </div>
+                <picture>
+                    <source type="image/webp" srcset="images/webp/car.webp 1x, images/webp/car@2x.webp 2x, images/webp/car@3x.webp 3x">
+                    <source type="image/jpeg" srcset="images/car.jpg 1x, images/car@2x.jpg 2x, images/car@3x.jpg 3x">
+                    <img class="characteristics__image" src="images/car.jpg" alt="Автомобиль 'Tesla'">
+                </picture>
+            </section>  
+        </div>
+    </main>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/slick.js"></script>
-    <script src="js/main.js"></script> 
+    <script src="js/main.js"></script>
 </body>
 
 </html>
