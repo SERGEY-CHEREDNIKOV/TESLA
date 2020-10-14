@@ -9,7 +9,14 @@ html {
 
 body {
     margin: 0;
-    padding: 0;     
+    padding: 0; 
+    font-family: 'Roboto-CondensedReg', Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: $black;    
+    color: $white;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -38,9 +45,9 @@ img {
 }
 
 .container {
-    max-width: 2000px;
+    max-width: 1240px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .visually-hidden {

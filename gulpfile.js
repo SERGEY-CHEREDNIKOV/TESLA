@@ -35,6 +35,7 @@ let path = {
         css: "source/scss/style.scss",
         images: "source/images/**/*.{jpg,png,svg,gif,ico}",
         webP: "source/images/**/*.{jpg,png}",
+        webP2: "source/images/webp/",
         fonts: "source/fonts/*.{woff,woff2}"
     },
     watch: {
@@ -136,8 +137,9 @@ function images() {
 
 function webP() {
     return src(path.src.webP)
-        .pipe(webp({quality: 90}))
-        .pipe(dest(path.build.webP));
+        .pipe(webp({quality: 80}))
+        .pipe(dest(path.build.webP))
+        .pipe(dest(path.src.webP2));
 }
 
 function fonts() {

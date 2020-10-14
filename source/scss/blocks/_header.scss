@@ -1,0 +1,64 @@
+.header {
+    min-height: 100vh;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+    margin-bottom: 28px;
+}
+
+.header__logo {
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.header__btn {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 1px solid #ffffff;
+    background-color:  rgba(255, 255, 255, 0.1);
+}
+
+.header__btn-line {
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-left: -18px;
+}
+
+.header__btn-line::before,
+.header__btn-line::after {
+    content: " ";
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-left: -18px;
+}
+
+.header__btn-line::before {
+    margin-top: -13px;
+}
+
+.header__btn-line::after {
+    margin-top: 13px;
+}
+
+.header__title {
+    margin-bottom: 40px;
+    font-family: 'RobotoReg', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+}
+
+.header__text {
+    max-width: 285px;
+    margin-bottom: 25px;
+}

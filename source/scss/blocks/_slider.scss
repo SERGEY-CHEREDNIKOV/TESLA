@@ -1,0 +1,10 @@
+.slider {
+    min-height: 100vh;
+}
+
+.slider__item {
+    background-image: url('../../images/slide-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+}
