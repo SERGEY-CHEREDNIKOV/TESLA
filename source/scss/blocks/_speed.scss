@@ -1,0 +1,21 @@
+.speed__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.speed {
+    display: flex;
+    justify-content: space-between;
+}
+
+.speed__title {
+    font-size: 36px;
+    line-height: 48px;
+    color: $red;
+}
+
+.speed__text {
+    margin: auto;
+    max-width: 300px;
+}
