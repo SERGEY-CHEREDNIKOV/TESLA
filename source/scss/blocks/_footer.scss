@@ -1,0 +1,37 @@
+.footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: $cherry;
+}
+
+.footer__test-drive {
+    margin: 0 auto;
+    margin-bottom: 83px;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer__link{
+    position: relative;
+    margin-right: 13px;
+    padding-right: 13px;  
+}
+
+
+.footer__link::after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 2px;
+    display: block;
+    width: 2px;
+    height: 23px;
+    background-color: #fff;
+}
+
+

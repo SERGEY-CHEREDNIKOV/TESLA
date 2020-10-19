@@ -1,8 +1,10 @@
 .test-drive {
-    display: inline-block;
+    display: block;
+    max-width: 292px;
+    padding: 30px 0;
     font-family: 'Roboto-CondensedBld', sans-serif;
     font-weight: bold;
-    padding: 30px 60px;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.15);
     border: 1px solid #FFFFFF;
     transition: all .5s;
