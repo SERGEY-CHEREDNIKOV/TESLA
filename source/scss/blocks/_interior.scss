@@ -1,0 +1,24 @@
+.interior__image {
+    margin-bottom: 100px;
+}
+
+.interior__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.interior__item {
+    position: relative;
+    padding: 70px 0 0 100px;
+    list-style: none;
+    max-width: 460px;
+}
+
+.interior__item-num {
+    color: $red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
